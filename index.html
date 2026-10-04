@@ -7,7 +7,7 @@
   <meta name="description" content="Fast, reliable internet with no data caps. Connecting homes, businesses, schools and communities across Kenya." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <script>
@@ -49,6 +49,17 @@
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
     <symbol id="i-logo" viewBox="0 0 40 40"><rect x="3" y="4" width="8" height="33" rx="4" fill="currentColor"/><path d="M11 27.5 22.5 37" stroke="currentColor" stroke-width="8" stroke-linecap="round" fill="none"/><circle cx="15.2" cy="17" r="3" fill="currentColor"/><path d="M15 9.5a8 8 0 0 1 8 8M15 3a14.5 14.5 0 0 1 14.5 14.5" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" fill="none"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-bars" viewBox="0 0 24 24"><rect x="3" y="14" width="3.6" height="7" rx="1" fill="currentColor" stroke="none"/><rect x="8.5" y="10" width="3.6" height="11" rx="1" fill="currentColor" stroke="none"/><rect x="14" y="6" width="3.6" height="15" rx="1" fill="currentColor" stroke="none"/><rect x="19.5" y="2.5" width="2.5" height="18.5" rx="1" fill="currentColor" stroke="none" opacity=".45"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></symbol>
+    <symbol id="i-auto" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M7 9h4M7 12.5h4M14.5 9.5h3v5h-3zM7 16h10"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14.5 8H17V4.5h-2.8c-3 0-4.2 1.9-4.2 4.4V11H7.5v3.5H10V21h3.6v-6.5h2.9l.5-3.5h-3.4V9.3c0-.8.3-1.3.9-1.3z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.9"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-yt" viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-in" viewBox="0 0 24 24"><path d="M4.5 9.5h3.2V20H4.5zM6.1 4a1.85 1.85 0 1 1 0 3.7 1.85 1.85 0 0 1 0-3.7zM10 9.5h3.1v1.4c.4-.8 1.5-1.7 3.1-1.7 3.3 0 3.9 2.2 3.9 5V20h-3.2v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V20H10z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M17.8 3.5h3.1l-6.8 7.7 8 10.3h-6.3l-4.9-6.4-5.6 6.4H2.2l7.2-8.3L1.8 3.5h6.4l4.4 5.9zm-1.1 16.2h1.7L7.3 5.2H5.5z" fill="currentColor" stroke="none"/></symbol>
   </defs>
 </svg>
 
@@ -68,8 +79,8 @@
     </nav>
 
     <div class="header-actions">
-      <button class="theme-pill" id="theme-toggle" type="button" aria-label="Change colour theme">OS · LIGHT</button>
-      <a href="#packages" class="btn btn-primary btn-sm">Get Connected <svg class="ic"><use href="#i-arrow"/></svg></a>
+      <button class="theme-btn" id="theme-toggle" type="button" aria-label="Change colour theme"><svg class="ic"><use href="#i-auto"/></svg></button>
+      <a href="#packages" class="btn btn-orange btn-sm">Get Connected <svg class="ic"><use href="#i-arrow"/></svg></a>
       <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
         <svg class="ic"><use href="#i-menu"/></svg>
       </button>
@@ -80,58 +91,63 @@
 <main>
   <!-- ============ HERO ============ -->
   <section class="hero">
+    <svg class="hero-swoosh" viewBox="0 0 800 700" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="sw1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#0a3fd8"/></linearGradient>
+        <linearGradient id="sw2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#cfe0ff" stop-opacity=".2"/><stop offset="1" stop-color="#8fb6ff" stop-opacity=".8"/></linearGradient>
+      </defs>
+      <path d="M230 0C300 140 400 230 510 205S600 70 620 0z" fill="url(#sw2)"/>
+      <path d="M300 0C350 135 430 220 520 190S580 60 585 0H525C515 50 495 110 465 118S395 80 365 0z" fill="url(#sw1)" opacity=".9"/>
+      <path d="M800 420C700 470 640 600 520 650S300 700 260 700H800z" fill="url(#sw1)"/>
+      <path d="M800 360C690 430 600 560 470 620S300 680 200 700H330C420 680 560 640 650 560S760 430 800 410z" fill="url(#sw2)"/>
+    </svg>
+
     <div class="container hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">Reliable. Fast. Always Connected</p>
+        <p class="kicker">Reliable • Fast • Always Connected <span class="kicker-line"></span></p>
         <h1>Unlimited<br />Internet.<br /><span class="accent">For Everyone.</span></h1>
-        <p class="hero-lead">Fast, reliable internet with no data caps. Connecting homes, businesses, schools and communities across Kenya for work, learning, streaming and everything in between.</p>
+        <p class="hero-lead">High-speed internet with no data caps. Fast, reliable connectivity for work, learning, streaming and everything in between.</p>
+        <ul class="hero-features">
+          <li><svg class="ic"><use href="#i-bolt"/></svg> Faster Speeds</li>
+          <li><svg class="ic"><use href="#i-bars"/></svg> Unlimited Data</li>
+          <li><svg class="ic"><use href="#i-gear"/></svg> Free Installation</li>
+          <li><svg class="ic"><use href="#i-headset"/></svg> 24/7 Support</li>
+        </ul>
         <div class="hero-ctas">
-          <a href="#packages" class="btn btn-primary btn-lg">Get Connected Today <svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a href="#packages" class="btn btn-orange btn-lg">Get Connected Today <svg class="ic"><use href="#i-arrow"/></svg></a>
           <a href="#hotspots" class="btn btn-outline btn-lg"><svg class="ic"><use href="#i-pin"/></svg> Find a Hotspot</a>
         </div>
-        <ul class="hero-features">
-          <li><svg class="ic"><use href="#i-wifi"/></svg> Faster Speeds</li>
-          <li><svg class="ic"><use href="#i-infinity"/></svg> Unlimited Data</li>
-          <li><svg class="ic"><use href="#i-gear"/></svg> Free Installation</li>
-          <li><svg class="ic"><use href="#i-headset"/></svg> 24/7 Customer Service</li>
-        </ul>
       </div>
 
       <div class="hero-visual">
-        <div class="hero-photo">
+        <div class="hero-family">
           <img src="assets/img/hero-family.jpg" alt="A smiling Kenyan family on a sofa using a laptop, tablets and a phone" width="974" height="666" />
-          <div class="bubble bubble-tag">
-            <svg class="ic"><use href="#i-wifi"/></svg>
-            <span>A<br />Brighter<br />Connected<br />Kenya</span>
-          </div>
-          <div class="bubble bubble-wifi"><svg class="ic"><use href="#i-wifi"/></svg></div>
         </div>
-        <svg class="hero-doodle" viewBox="0 0 60 30" aria-hidden="true"><path d="M8 22c6-12 20-16 30-10M16 22c4-6 12-8 18-4M24 22h.01M40 20c4 0 10 1 14 4"/></svg>
+        <figure class="snap snap-1"><img src="assets/img/collage-student.jpg" alt="A student with headphones learning on a laptop" /></figure>
+        <figure class="snap snap-2"><img src="assets/img/collage-remote.jpg" alt="A woman working from home on a laptop" /></figure>
+        <figure class="snap snap-3"><img src="assets/img/collage-tech.jpg" alt="A smiling business owner using a tablet" /></figure>
+        <div class="wifi-tile" aria-hidden="true"><svg class="ic"><use href="#i-wifi"/></svg></div>
+        <p class="script" aria-hidden="true">Work<br /><span>Learn</span><br /><span>Stream</span><br /><span>Connect</span><br /><span>Together</span></p>
       </div>
     </div>
-
-    <svg class="hero-wave" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M0 120C240 40 520 190 820 130S1260 20 1440 70V200H0z" fill="var(--wave-1)"/>
-      <path d="M0 160C300 100 560 200 860 160S1280 90 1440 120V200H0z" fill="var(--wave-2)"/>
-    </svg>
   </section>
 
-  <!-- ============ SERVICES + HOTSPOT ============ -->
+  <!-- ============ SERVICES + HOTSPOT + LOYALTY ============ -->
   <section class="services" id="services">
-    <div class="container">
-      <div class="section-head split">
-        <div>
-          <p class="eyebrow">Our Services</p>
-          <h2>Everything You Need.<br />All in One Place.</h2>
+    <div class="container services-layout">
+      <div class="services-panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Our Services</p>
+            <h2>Everything You Need. All in One Place.</h2>
+          </div>
+          <a href="#contact" class="link">View All Services <svg class="ic"><use href="#i-arrow"/></svg></a>
         </div>
-        <p class="section-sub">Reliable internet, professional installation and modern solutions for homes, businesses and institutions.</p>
-      </div>
 
-      <div class="services-layout">
         <div class="service-grid">
           <article class="service-card">
             <svg class="svc-ic"><use href="#i-wifi"/></svg>
-            <div><h3>High-Speed Internet</h3><p>Blazing fast internet for homes and businesses.</p><a href="#packages" class="link">Learn More <svg class="ic"><use href="#i-arrow"/></svg></a></div>
+            <div><h3>High-Speed Internet</h3><p>Blazing fast for homes and businesses.</p><a href="#packages" class="link">Learn More <svg class="ic"><use href="#i-arrow"/></svg></a></div>
           </article>
           <article class="service-card">
             <svg class="svc-ic"><use href="#i-tools"/></svg>
@@ -166,13 +182,15 @@
             <div><h3>VoIP &amp; PBX Systems</h3><p>Smart communication for modern businesses.</p><a href="#contact" class="link">Learn More <svg class="ic"><use href="#i-arrow"/></svg></a></div>
           </article>
         </div>
+      </div>
 
-        <aside class="hotspot-card" id="hotspots" aria-labelledby="hotspot-title">
+      <div class="side-cards">
+        <aside class="blue-card hotspot-card" id="hotspots" aria-labelledby="hotspot-title">
           <img class="hotspot-photo" src="assets/img/hotspot.jpg" alt="" aria-hidden="true" />
-          <div class="hotspot-body">
-            <p class="eyebrow">Connect to Kade near you</p>
-            <h2 id="hotspot-title">Find an Active<br />Hotspot Near You.</h2>
-            <p class="hotspot-lead">Looking for Kade WiFi in Ikutha?<br />Share your location with our local team.</p>
+          <svg class="hotspot-wifi" aria-hidden="true"><use href="#i-wifi"/></svg>
+          <div class="card-body">
+            <h2 id="hotspot-title"><svg class="ic"><use href="#i-pin"/></svg><span>Find an Active<br />Hotspot Near You.</span></h2>
+            <p class="card-lead">Looking for Kade WiFi in Ikutha?<br />Share your location with our local team.</p>
             <form class="hotspot-search" id="hotspot-form" role="search">
               <label for="hotspot-q" class="sr-only">Search your area, estate or location</label>
               <input id="hotspot-q" name="q" type="search" placeholder="Search your area, estate or location..." autocomplete="off" />
@@ -186,144 +204,122 @@
             <p class="hotspot-result" id="hotspot-result" role="status" aria-live="polite"></p>
           </div>
         </aside>
+
+        <aside class="blue-card loyalty-card" id="loyalty" aria-labelledby="loyalty-title">
+          <img class="loyalty-gift" src="assets/img/loyalty-gift-blue.jpg" alt="" aria-hidden="true" />
+          <div class="card-body">
+            <p class="loyalty-kicker"><svg class="ic"><use href="#i-card"/></svg> Kade Loyalty</p>
+            <h2 id="loyalty-title">Join. Earn. Save.</h2>
+            <p class="card-lead">Earn points for every payment. Redeem for data boosts, discounts, free installation, devices and more exciting rewards.</p>
+            <a href="#faqs" class="btn btn-orange btn-sm" id="loyalty-link">Learn About Loyalty <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
+        </aside>
       </div>
     </div>
-    <svg class="section-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M0 40C260 90 520 0 820 40S1260 70 1440 30V90H0z" fill="var(--wave-1)"/>
-    </svg>
   </section>
 
   <!-- ============ PACKAGES ============ -->
   <section class="packages" id="packages">
     <div class="container">
-      <div class="section-head row">
-        <div>
-          <p class="eyebrow">Internet Packages</p>
-          <h2>Simple Plans. Super Fast. Super Affordable.</h2>
-        </div>
-        <button type="button" class="link link-btn" id="compare-toggle" aria-expanded="false" aria-controls="compare">Compare Packages <svg class="ic"><use href="#i-arrow"/></svg></button>
+      <div class="center-head">
+        <p class="kicker centered"><span class="kicker-line"></span> Internet Packages <span class="kicker-line"></span></p>
+        <h2>Simple Plans. <span class="accent">Super Fast</span>. Super Affordable.</h2>
       </div>
 
       <div class="plan-grid">
         <article class="plan">
-          <h3>Basic Connect</h3><p class="speed">Up to 7 Mbps</p>
-          <p class="price"><span class="cur">KSh</span><strong>1,499</strong><span class="per">/mo</span></p>
-          <ul>
-            <li><svg class="ic"><use href="#i-check"/></svg>Unlimited Data</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Perfect for light browsing</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted Streaming</li>
-          </ul>
-          <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Basic%20Connect">Get Started</a>
+          <div class="plan-top"><h3>Basic Connect</h3><p class="speed">Up to 7 Mbps</p></div>
+          <div class="plan-body">
+            <p class="price"><span class="cur">KSh</span><strong>1,499</strong><span class="per">/mo</span></p>
+            <ul>
+              <li><svg class="ic"><use href="#i-check"/></svg>Unlimited Data</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Perfect for light browsing</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted Streaming</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Basic%20Connect">Get Started <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
         </article>
         <article class="plan">
-          <h3>Bronze Unlimited</h3><p class="speed">Up to 20 Mbps</p>
-          <p class="price"><span class="cur">KSh</span><strong>3,000</strong><span class="per">/mo</span></p>
-          <ul>
-            <li><svg class="ic"><use href="#i-check"/></svg>Unlimited Data</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>For power users</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted Streaming</li>
-          </ul>
-          <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Bronze%20Unlimited">Get Started</a>
+          <div class="plan-top"><h3>Bronze Unlimited</h3><p class="speed">Up to 20 Mbps</p></div>
+          <div class="plan-body">
+            <p class="price"><span class="cur">KSh</span><strong>3,000</strong><span class="per">/mo</span></p>
+            <ul>
+              <li><svg class="ic"><use href="#i-check"/></svg>Unlimited Data</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>For power users</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted Streaming</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Bronze%20Unlimited">Get Started <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
         </article>
         <article class="plan plan-featured">
           <span class="badge">Recommended</span>
-          <h3>Standard Unlimited</h3><p class="speed">Up to 10 Mbps</p>
-          <p class="price"><span class="cur">KSh</span><strong>2,000</strong><span class="per">/mo</span></p>
-          <ul>
-            <li><svg class="ic"><use href="#i-check"/></svg>Unlimited Data</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Ideal for families</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>3 Multiple Device Sharing</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted Streaming</li>
-          </ul>
-          <a class="btn btn-white btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Standard%20Unlimited">Get Started</a>
+          <div class="plan-top"><h3>Standard Unlimited</h3><p class="speed">Up to 10 Mbps</p></div>
+          <div class="plan-body">
+            <p class="price"><span class="cur">KSh</span><strong>2,000</strong><span class="per">/mo</span></p>
+            <ul>
+              <li><svg class="ic"><use href="#i-check"/></svg>Unlimited Data</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Ideal for families</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>3 Multiple Device Sharing</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted Streaming</li>
+            </ul>
+            <a class="btn btn-primary btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Standard%20Unlimited">Get Started <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
         </article>
         <article class="plan">
-          <h3>Executive Unlimited</h3><p class="speed">Up to 30 Mbps</p>
-          <p class="price"><span class="cur">KSh</span><strong>5,000</strong><span class="per">/mo</span></p>
-          <ul>
-            <li><svg class="ic"><use href="#i-check"/></svg>For Schools &amp; Hospitals</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>On-Demand Technician Visits</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted HD Streaming</li>
-          </ul>
-          <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Executive%20Unlimited">Get Started</a>
+          <div class="plan-top"><h3>Executive Unlimited</h3><p class="speed">Up to 30 Mbps</p></div>
+          <div class="plan-body">
+            <p class="price"><span class="cur">KSh</span><strong>5,000</strong><span class="per">/mo</span></p>
+            <ul>
+              <li><svg class="ic"><use href="#i-check"/></svg>For Schools &amp; Hospitals</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>On-Demand Technician Visits</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted HD Streaming</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Executive%20Unlimited">Get Started <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
         </article>
         <article class="plan">
-          <h3>Business Max</h3><p class="speed">Up to 50 Mbps</p>
-          <p class="price"><span class="cur">KSh</span><strong>13,500</strong><span class="per">/mo</span></p>
-          <ul>
-            <li><svg class="ic"><use href="#i-check"/></svg>For Corporates</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>On-Demand Technician Visits</li>
-            <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted UHD Streaming</li>
-          </ul>
-          <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Business%20Max">Get Started</a>
+          <div class="plan-top"><h3>Business Max</h3><p class="speed">Up to 50 Mbps</p></div>
+          <div class="plan-body">
+            <p class="price"><span class="cur">KSh</span><strong>13,500</strong><span class="per">/mo</span></p>
+            <ul>
+              <li><svg class="ic"><use href="#i-check"/></svg>For Corporates</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Multiple Device Sharing</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>On-Demand Technician Visits</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Uninterrupted UHD Streaming</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="mailto:support@kadenetworks.com?subject=Get%20Started%20-%20Business%20Max">Get Started <svg class="ic"><use href="#i-arrow"/></svg></a>
+          </div>
         </article>
       </div>
-
-      <div class="compare" id="compare" hidden>
-        <div class="compare-scroll">
-          <table>
-            <caption class="sr-only">Package comparison</caption>
-            <thead>
-              <tr><th scope="col">Package</th><th scope="col">Speed</th><th scope="col">Price / month</th><th scope="col">Data</th><th scope="col">Best for</th><th scope="col">Technician visits</th><th scope="col">Streaming</th></tr>
-            </thead>
-            <tbody>
-              <tr><th scope="row">Basic Connect</th><td>Up to 7 Mbps</td><td>KSh 1,499</td><td>Unlimited</td><td>Light browsing</td><td>–</td><td>Uninterrupted</td></tr>
-              <tr><th scope="row">Bronze Unlimited</th><td>Up to 20 Mbps</td><td>KSh 3,000</td><td>Unlimited</td><td>Power users</td><td>–</td><td>Uninterrupted</td></tr>
-              <tr class="is-featured"><th scope="row">Standard Unlimited</th><td>Up to 10 Mbps</td><td>KSh 2,000</td><td>Unlimited</td><td>Families</td><td>–</td><td>Uninterrupted</td></tr>
-              <tr><th scope="row">Executive Unlimited</th><td>Up to 30 Mbps</td><td>KSh 5,000</td><td>Unlimited</td><td>Schools &amp; Hospitals</td><td>On-demand</td><td>HD</td></tr>
-              <tr><th scope="row">Business Max</th><td>Up to 50 Mbps</td><td>KSh 13,500</td><td>Unlimited</td><td>Corporates</td><td>On-demand</td><td>UHD</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ LOYALTY ============ -->
-  <section class="loyalty" id="loyalty">
-    <div class="container loyalty-grid">
-      <div class="loyalty-copy">
-        <p class="loyalty-kicker">Kade Loyalty</p>
-        <h2>Join. Earn. Save.</h2>
-        <p>Earn points for every payment. Redeem for data boosts, discounts, free installation, devices and more exciting rewards.</p>
-        <a href="#faqs" class="btn btn-primary">Learn About Loyalty <svg class="ic"><use href="#i-arrow"/></svg></a>
-      </div>
-      <div class="loyalty-visual">
-        <img src="assets/img/loyalty-gift.png" alt="A white gift box tied with a blue ribbon surrounded by gold coins" width="520" height="358" />
-      </div>
-      <ul class="loyalty-perks">
-        <li><span class="perk-ic"><svg class="ic"><use href="#i-gift"/></svg></span>Earn points<br />on every payment</li>
-        <li><span class="perk-ic"><svg class="ic"><use href="#i-tag"/></svg></span>Redeem for data boosts,<br />discounts and freebies</li>
-        <li><span class="perk-ic"><svg class="ic"><use href="#i-star"/></svg></span>Exclusive offers<br />just for you</li>
-      </ul>
     </div>
   </section>
 
   <!-- ============ VALUES ============ -->
   <section class="values">
     <div class="container">
-      <p class="eyebrow">What Drives Us</p>
-      <div class="value-grid">
-        <article class="value-card">
-          <span class="value-ic"><svg class="ic"><use href="#i-shield"/></svg></span>
-          <div><h3>Trust &amp; Reliability</h3><p>Dependable internet backed by honest service and consistent performance.</p></div>
-        </article>
-        <article class="value-card">
-          <span class="value-ic"><svg class="ic"><use href="#i-users"/></svg></span>
-          <div><h3>Customer First</h3><p>Your satisfaction and needs drive everything we do.</p></div>
-        </article>
-        <article class="value-card">
-          <span class="value-ic"><svg class="ic"><use href="#i-bulb"/></svg></span>
-          <div><h3>Innovation</h3><p>Smarter technology for faster, more reliable connectivity.</p></div>
-        </article>
-        <article class="value-card">
-          <span class="value-ic"><svg class="ic"><use href="#i-chart"/></svg></span>
-          <div><h3>Growing With You</h3><p>Expanding our network to connect more homes and businesses.</p></div>
-        </article>
+      <div class="values-panel">
+        <p class="values-title">What Drives Us</p>
+        <div class="value-grid">
+          <article class="value">
+            <svg class="value-ic" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="vg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d8bff"/><stop offset="1" stop-color="#0b44d6"/></linearGradient></defs><path d="M24 4 7 10.5v12C7 34 15 41.5 24 45c9-3.5 17-11 17-22.5v-12z" fill="url(#vg1)"/><path d="m16 24.5 5.5 5.5L32.5 19" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><h3>Trust &amp; Reliability</h3><p>Dependable internet backed by honest service and consistent performance.</p></div>
+          </article>
+          <article class="value">
+            <svg class="value-ic" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="vg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d8bff"/><stop offset="1" stop-color="#0b44d6"/></linearGradient></defs><circle cx="31" cy="14" r="6.5" fill="#7fb0ff"/><path d="M20 40c0-7.5 4.5-13 11-13s11 5.5 11 13z" fill="#7fb0ff"/><circle cx="18" cy="15" r="8" fill="url(#vg2)"/><path d="M4 42c0-9 6-15.5 14-15.5S32 33 32 42z" fill="url(#vg2)"/></svg>
+            <div><h3>Customer First</h3><p>Your satisfaction and needs drive everything we do.</p></div>
+          </article>
+          <article class="value">
+            <svg class="value-ic" viewBox="0 0 48 48" aria-hidden="true"><defs><radialGradient id="vg3" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#9cc3ff"/><stop offset=".55" stop-color="#2f7bff"/><stop offset="1" stop-color="#0b44d6"/></radialGradient></defs><g stroke="#ffc233" stroke-width="2.6" stroke-linecap="round"><path d="M24 2.5v4M8.5 9l2.8 2.8M39.5 9l-2.8 2.8M3.5 23h4M40.5 23h4"/></g><path d="M24 9a13 13 0 0 0-7.6 23.6c1.3 1 2.1 2.4 2.1 4V38h11v-1.4c0-1.6.8-3 2.1-4A13 13 0 0 0 24 9z" fill="url(#vg3)"/><rect x="18.5" y="39.5" width="11" height="3.2" rx="1.6" fill="#1a3a8a"/><rect x="20" y="43.5" width="8" height="2.8" rx="1.4" fill="#1a3a8a"/></svg>
+            <div><h3>Innovation</h3><p>Smarter technology for faster, more reliable connectivity.</p></div>
+          </article>
+          <article class="value">
+            <svg class="value-ic" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="vg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d8bff"/><stop offset="1" stop-color="#0b44d6"/></linearGradient></defs><rect x="5" y="30" width="7" height="13" rx="1.5" fill="#9cc3ff"/><rect x="15" y="24" width="7" height="19" rx="1.5" fill="#5f9bff"/><rect x="25" y="18" width="7" height="25" rx="1.5" fill="url(#vg4)"/><rect x="35" y="11" width="7" height="32" rx="1.5" fill="url(#vg4)"/><path d="m6 22 10-7 7 4 14-12" fill="none" stroke="#0b44d6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M31 6h7v7" fill="none" stroke="#0b44d6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><h3>Growing With You</h3><p>Expanding our network to connect more homes and businesses.</p></div>
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -331,11 +327,10 @@
   <!-- ============ FAQ ============ -->
   <section class="faqs" id="faqs">
     <div class="container">
-      <div class="section-head row">
+      <div class="faq-head">
         <div>
-          <p class="eyebrow">FAQs</p>
           <h2>Everything customers ask.</h2>
-          <p class="section-sub tight">Quick answers about Kade Networks internet, installation, payments and support.</p>
+          <p class="section-sub">Quick answers about Kade Networks internet, installation, payments and support.</p>
         </div>
         <button type="button" class="link link-btn" id="faq-all">View All FAQs <svg class="ic"><use href="#i-arrow"/></svg></button>
       </div>
@@ -361,7 +356,7 @@
           <summary>Is installation free?<svg class="ic"><use href="#i-chevron"/></svg></summary>
           <p>Yes. Standard installation is free on our internet packages. Extra cabling or special equipment, if required, is quoted upfront before any work starts.</p>
         </details>
-        <details class="faq">
+        <details class="faq" id="faq-loyalty">
           <summary>How do I earn loyalty points and vouchers?<svg class="ic"><use href="#i-chevron"/></svg></summary>
           <p>You earn Kade Loyalty points every time you pay for your package. Redeem them for data boosts, discounts, free installation, devices and other rewards.</p>
         </details>
@@ -372,41 +367,53 @@
 
 <!-- ============ FOOTER ============ -->
 <footer class="site-footer" id="contact">
-  <div class="container footer-grid">
-    <div class="footer-brand">
-      <a href="#top" class="logo" aria-label="Kade Networks home">
-        <svg class="logo-mark"><use href="#i-logo"/></svg><span class="logo-text">ade Networks</span>
-      </a>
-      <p class="brand-tag">Reliable, Fast. Always Connected.</p>
-      <p>Proudly powering homes, businesses and communities across Kenya.</p>
+  <svg class="footer-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="fw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#1450e6"/></linearGradient></defs>
+    <path d="M0 60C220 10 420 10 640 40S1080 110 1440 30V120H0z" fill="url(#fw)" opacity=".35"/>
+    <path d="M0 80C260 30 480 40 700 70S1120 110 1440 60V120H0z" fill="url(#fw)"/>
+  </svg>
+  <div class="footer-main">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="Kade Networks home">
+          <svg class="logo-mark"><use href="#i-logo"/></svg><span class="logo-text">ade Networks</span>
+        </a>
+        <p class="brand-tag">Reliable. Fast. Always Connected.</p>
+        <p>Proudly powering homes, businesses and communities across Kenya.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg class="ic"><use href="#i-fb"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg class="ic"><use href="#i-ig"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg class="ic"><use href="#i-yt"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg class="ic"><use href="#i-in"/></svg></a>
+          <a href="#" aria-label="X"><svg class="ic"><use href="#i-x"/></svg></a>
+        </div>
+      </div>
+
+      <nav class="footer-col" aria-label="Company">
+        <h4>Company</h4>
+        <a href="#">About Us</a><a href="#">Join our Team</a><a href="#">Affiliate Program</a><a href="#hotspots">Location Overview</a><a href="#">Blog &amp; News</a>
+      </nav>
+      <nav class="footer-col" aria-label="Legal">
+        <h4>Legal</h4>
+        <a href="#">Terms and Conditions</a><a href="#">Acceptable Use Policy</a><a href="#">Privacy Policy</a><a href="#">Fair Usage Policy</a><a href="#">Refund Policy</a>
+      </nav>
+      <nav class="footer-col" aria-label="Solutions">
+        <h4>Solutions</h4>
+        <a href="#services">CCTV &amp; Security</a><a href="#services">VoIP &amp; PBX Systems</a><a href="#services">ICT Infrastructure</a><a href="#services">IT Support</a><a href="#services">Web Design</a>
+      </nav>
+      <nav class="footer-col" aria-label="Contact and help">
+        <h4>Contact &amp; Help</h4>
+        <a href="mailto:support@kadenetworks.com">Support</a><a href="mailto:support@kadenetworks.com?subject=Sales%20enquiry">Sales</a><a href="#">Tutorials</a><a href="#faqs">FAQ</a><a href="#">Server Status</a>
+      </nav>
     </div>
-
-    <nav class="footer-col" aria-label="Company">
-      <h4>Company</h4>
-      <a href="#">About Us</a><a href="#">Join our Team</a><a href="#">Affiliate Program</a><a href="#hotspots">Location Overview</a><a href="#">Blog &amp; News</a>
-    </nav>
-    <nav class="footer-col" aria-label="Legal">
-      <h4>Legal</h4>
-      <a href="#">Terms and Conditions</a><a href="#">Acceptable Use Policy</a><a href="#">Privacy Policy</a><a href="#">Fair Usage Policy</a><a href="#">Refund Policy</a>
-    </nav>
-    <nav class="footer-col" aria-label="Solutions">
-      <h4>Solutions</h4>
-      <a href="#services">CCTV &amp; Security</a><a href="#services">VoIP &amp; PBX Systems</a><a href="#services">ICT Infrastructure</a><a href="#services">IT Support</a><a href="#services">Web Design</a>
-    </nav>
-    <nav class="footer-col" aria-label="Contact and help">
-      <h4>Contact &amp; Help</h4>
-      <a href="mailto:support@kadenetworks.com">Support</a><a href="mailto:support@kadenetworks.com?subject=Sales%20enquiry">Sales</a><a href="#">Tutorials</a><a href="#faqs">FAQ</a><a href="#">Server Status</a>
-    </nav>
-
-    <div class="contact-card">
+  </div>
+  <div class="footer-bar">
+    <div class="container footer-bar-inner">
       <a href="tel:+254710810790"><svg class="ic"><use href="#i-phone"/></svg>0710 810790</a>
       <a href="mailto:support@kadenetworks.com"><svg class="ic"><use href="#i-mail"/></svg>support@kadenetworks.com</a>
       <p><svg class="ic"><use href="#i-pin"/></svg>Ikutha, Kitui County, Kenya</p>
+      <p class="copy">© 2026 Kade Networks. All rights reserved.</p>
     </div>
-  </div>
-  <div class="container footer-bottom">
-    <p>© 2026 Kade Networks. All rights reserved.</p>
-    <p>Licensed by Communications Authority of Kenya</p>
   </div>
 </footer>
 

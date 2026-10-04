@@ -37,8 +37,8 @@
   function applyMode(mode) {
     if (mode === 'os') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', mode);
     var osDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var label = mode === 'os' ? 'OS · ' + (osDark ? 'DARK' : 'LIGHT') : mode.toUpperCase();
-    themeBtn.textContent = label;
+    var label = mode === 'os' ? 'automatic (' + (osDark ? 'dark' : 'light') + ')' : mode;
+    themeBtn.querySelector('use').setAttribute('href', mode === 'os' ? '#i-auto' : mode === 'dark' ? '#i-moon' : '#i-sun');
     themeBtn.setAttribute('aria-label', 'Colour theme: ' + label + '. Click to change.');
     try { mode === 'os' ? localStorage.removeItem('kade-theme') : localStorage.setItem('kade-theme', mode); } catch (e) {}
   }
@@ -97,15 +97,9 @@
     });
   });
 
-  /* ---------- Compare packages ---------- */
-  var compareBtn = document.getElementById('compare-toggle');
-  var compare = document.getElementById('compare');
-  compareBtn.addEventListener('click', function () {
-    var open = compare.hasAttribute('hidden');
-    if (open) compare.removeAttribute('hidden'); else compare.setAttribute('hidden', '');
-    compareBtn.setAttribute('aria-expanded', String(open));
-    compareBtn.firstChild.nodeValue = open ? 'Hide Comparison ' : 'Compare Packages ';
-    if (open) compare.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  /* ---------- Loyalty: open the loyalty FAQ ---------- */
+  document.getElementById('loyalty-link').addEventListener('click', function () {
+    document.getElementById('faq-loyalty').open = true;
   });
 
   /* ---------- FAQs: "View All" opens / closes every answer ---------- */
